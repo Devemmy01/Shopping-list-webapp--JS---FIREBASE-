@@ -1,0 +1,27 @@
+{
+    "name": "LISTIFY",
+    "short_name": "LISTIFY",
+    "icons": [
+        {
+            "src": "./img/cart-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./img/cart-384.png",
+            "sizes": "384x384",
+            "type": "image/png"  
+        },
+        {
+            "src": "./img/cart-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#EEF0F4",
+    "background_color": "#EEF0F4",
+    "start_url": "",
+    "display": "standalone",
+    "orientation": "portrait"
+}

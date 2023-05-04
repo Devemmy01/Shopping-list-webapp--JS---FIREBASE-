@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTIFY</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-help-circle' id="modal-button"></i>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>USER GUIDE</h2><br>
+            <p>- Click on the the input field to type your item.</p>
+            <P>- Click on the ADD TO LIST button to add your item to the list.</P>
+            <p>- Tap on each item to remove them from the list.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="img/cart.png" alt="">
+        <input type="text" id="input-field" placeholder="Garri">
+        <button id="add-button">ADD TO LIST</button>
+        <ul id="shopping-list">
+            <!-- <li>Orange</li>
+            <li>Ogede</li> -->
+        </ul>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html> 
